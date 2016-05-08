@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery Modal Plugin</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<a href="#" data-modal-open="modal1">Open modal dialog</a><br>
+<a href="#" data-modal-open="modal2">Open modal dialog</a>
+
+<div class="modal tiny" id="modal1" data-modal>
+    <p>
+        modalContent1
+        <a href="#" data-modal-open="modal2">Open modal dialog</a>
+    </p>
+    <a data-modal-close>close</a>
+</div>
+
+<div class="modal" id="modal2" data-modal>
+    <p>modalContent2</p>
+    <a data-modal-close>close</a>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="js/jquery.modal.js"></script>
+<script>
+    $(function () {
+
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+{
+  "name": "jquery.modal.plugin",
+  "version": "1.0.0",
+  "description": "Simple modal dialog with jQuery.",
+  "main": "jquery.modal.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalicki2k/jQuery.Modal.Plugin.git"
+  },
+  "keywords": [
+    "reveal",
+    "modal",
+    "dialog",
+    "pop-up",
+    "windows"
+  ],
+  "author": "Sebastian Kalicki <s.kalicki@bitexpert.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kalicki2k/jQuery.Modal.Plugin/issues"
+  },
+  "homepage": "https://github.com/kalicki2k/jQuery.Modal.Plugin#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-sass": "^2.2.0",
+    "gulp-scss-lint": "^0.3.9",
+    "gulp-sourcemaps": "^1.6.0",
+    "jshint": "^2.9.1"
+  }
+}
